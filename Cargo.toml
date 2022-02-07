@@ -12,3 +12,6 @@ serde = { version = "1.0.136", features = ["derive"] }
 actix-rt = "2.6.0"
 redis = "0.21.5"
 uuid = { version = "0.8.2", features = ["v4"] }
+
+[dev-dependencies]
+test-log = { version = "0.2.8", default-features = false, features = ["trace"] }
