@@ -11,3 +11,4 @@ mockall = "0.11.0"
 serde = { version = "1.0.136", features = ["derive"] }
 actix-rt = "2.6.0"
 redis = "0.21.5"
+uuid = { version = "0.8.2", features = ["v4"] }
